@@ -11,8 +11,14 @@ public class Main {
 
         for (int i = 99; i >= 0; i--) {
             if (i > 2) {
-                System.out.println(i + BoBs + OtW + "," + i + BoBs + "\n"
+                System.out.println(i + BoBs + OtW + ", " + i + BoBs + "\n"
                                     + ToD + (i - 1) + BoBs + OtW + ".");
+            } else if (i == 2) {
+                System.out.println(i + BoBs + OtW + ", " + i + BoBs + "\n"
+                        + ToD + (i - 1) + BoB + OtW + ".");
+            } else if (i == 1) {
+                System.out.println(i + BoB + OtW + ", " + i + BoB + "\n"
+                        + ToD + "no more" + BoBs + OtW + ".");
             }
         }
     }
