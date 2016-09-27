@@ -5,7 +5,9 @@ public class Main {
     }
 
     private static void Ninety_Nine_Bottles_of_Beer() {
-        
+        for (int i = 99; i >= 0; i--) {
+            
+        }
     }
 }
 
